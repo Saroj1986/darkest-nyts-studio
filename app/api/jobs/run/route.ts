@@ -1,5 +1,5 @@
 import {NextResponse} from "next/server";
-import {listJobs,updateJob} from "../../../lib/jobStore";
+import {listJobs,updateJob} from "../../../../lib/jobStore";
 
 export async function POST(){
   const now=Date.now();
