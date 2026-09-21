@@ -1,0 +1,24 @@
+{
+  "name": "darkest-nyts-studio",
+  "version": "1.0.3",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check:imports": "node scripts/check-imports.mjs"
+  },
+  "dependencies": {
+    "googleapis": "latest",
+    "next": "latest",
+    "openai": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

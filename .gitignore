@@ -1,0 +1,8 @@
+node_modules
+.next
+.env*
+!.env.example
+projects/jobs
+projects/*.json
+.DS_Store
+public/generated
