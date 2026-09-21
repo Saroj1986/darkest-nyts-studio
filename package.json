@@ -9,6 +9,7 @@
     "check:imports": "node scripts/check-imports.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.0",
     "googleapis": "latest",
     "next": "latest",
     "openai": "latest",
